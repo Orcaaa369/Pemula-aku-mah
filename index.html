@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPlay - Spotify Playlist - SPOCOO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="embed-container">
+        <!-- Header -->
+        <header class="embed-header">
+            <a href="#" class="logo">
+                <svg class="logo-icon" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="18" fill="#1DB954" />
+                    <path d="M10 13.5c4.5-1.5 10-1.5 16 1.5M11 18.5c3.8-1.2 8.5-1.2 13.5 1M12 23.5c2.8-.9 6.5-.9 11 .7"
+                        stroke="#000" stroke-width="2.2" stroke-linecap="round" />
+                </svg>
+                <span class="logo-text">SPOCOO<span>WEB</span></span>
+            </a>
+            <a href="https://open.spotify.com/playlist/3IV0ZQHklQqUDsszEXYlPJ" target="_blank" class="btn-open">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+                </svg>
+                Buka di Spotify
+            </a>
+        </header>
+
+        <!-- Spotify Embed -->
+        <div class="player-wrapper">
+            <iframe data-testid="embed-iframe" style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/3IV0ZQHklQqUDsszEXYlPJ?utm_source=generator" width="100%"
+                height="450" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+
+        <!-- Playlist Info -->
+        <div class="playlist-info">
+            <h2 class="info-title">SPOCOO Mix</h2>
+            <p class="info-desc">KAMU BISA PUTER DI SINI ATAU DI SPORTIFY LANGSUNG</p>
+            <div class="info-stats">
+                <span>50+ LAGU</span>
+                <span>UPDATE SELALU</span>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="embed-footer">
+            <p>Powered by <a href="https://spotify.com" target="_blank">Spotify</a> · Dibuat oleh <a href="https://www.instagram.com/orcaaaslurrr/" target="_blank">orca</a></p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

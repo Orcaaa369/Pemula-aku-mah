@@ -1,0 +1,1 @@
+// WebPlay - Simple embed page (no JS needed)
